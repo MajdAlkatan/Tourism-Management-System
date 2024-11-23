@@ -1,0 +1,110 @@
+    .trip_container {
+        width: 650px;
+        height: 1000px;
+        margin: auto;
+        margin-top: 4%;
+        border: 1px solid #757373;
+        border-radius: 5px;
+        background-color: #0F111A;
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+        overflow-y: hidden;
+        color: white;
+        position: static;
+    }
+    
+    .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+        overflow-y: hidden;
+        position: static;
+    }
+    
+    .guid {
+        padding-left: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2%;
+    }
+    
+    .inputss {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 20px;
+        padding: 5%;
+    }
+    
+    .p-calendar .p-inputtext {
+        flex: 1 1 auto;
+        width: 100%;
+        background-color: #0F111A;
+        border: 1px #7796A9 solid;
+        padding-top: 3%;
+        width: 277px;
+    }
+    
+    .calendar-border-label {
+        font-size: 0.75rem;
+        color: #7796A9;
+        font-weight: 700;
+        position: relative;
+        top: 0.5rem;
+        margin: 0 0 0 15px;
+        padding: 0 3px;
+        background: #0F111A;
+        width: fit-content;
+        z-index: 1;
+    }
+    
+    .inputGroup {
+        margin: 1em 0 1em 0;
+        max-width: 100%;
+        position: relative;
+    }
+    
+    .footer_dialog2 {
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    
+    .custom-dropdown {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 300px;
+        position: relative;
+    }
+    
+    .dropdown-item {
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .guide-avatar {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+    
+    .my-custom-dialog {
+        overflow-y: hidden !important;
+        position: static !important;
+    }
+    
+    .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+        position: static !important;
+    }
+    
+    .trip_container img {
+        width: 266px;
+        height: 188px;
+        padding-right: 95px;
+    }
+    
+    .ggg {
+        margin-top: 153px;
+        margin-left: 222px;
+    }

@@ -1,0 +1,15 @@
+.Button {
+    height: 70px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.close_button {
+    height: 50%;
+    width: 25%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(33, 33, 123, 0.377);
+}

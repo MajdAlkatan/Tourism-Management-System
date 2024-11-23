@@ -1,0 +1,149 @@
+/* Makediscount.css */
+
+/* Tab Bar Styling */
+.tab-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: linear-gradient(135deg, #007bff, #0056b3); /* Elegant gradient background */
+    border-top-left-radius: 4px; /* More rounded corners for a modern touch */
+    border-top-right-radius: 4px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for definition */
+  }
+  
+  /* Tab Buttons Styling */
+  .tab-bar button {
+    background: transparent;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Added shadow transition */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); /* Soft text shadow for depth */
+  }
+  
+  .tab-bar button:hover,
+  .tab-bar button.active {
+    background: rgba(255, 255, 255, 0.1); /* Slightly translucent background on hover */
+    color: #fff;
+    transform: scale(1.1); /* Enlarges button slightly on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adds shadow on hover */
+  }
+  
+  .tab-bar button.active {
+    border-bottom: 4px solid #fff; /* Thicker underline for active tab */
+    background: rgba(255, 255, 255, 0.3); /* Slightly different background for active tab */
+  }
+  
+  /* Grid Container Styling */
+  .grid-containerq {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px; /* Increased gap for more spacious layout */
+  }
+  
+  /* Dropdown and Input Fields Styling */
+/* Dropdown and Input Fields Styling */
+.dropdown-service,
+.dropdown-event {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(145deg, #242f4b, #1a1049); /* Gradient background for dropdowns */
+  color: #fff; /* Text color for better contrast */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transition for focus effects */
+}
+
+/* Style for the dropdown options when focused */
+.dropdown-service:focus,
+.dropdown-event:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.6); /* Enhanced shadow on focus */
+  outline: none;
+  background: #1a1049; /* Dark background for the dropdown when focused */
+}
+
+/* Option Styling */
+.dropdown-service option,
+.dropdown-event option {
+  background: #1a1049; /* Dark background for options */
+  color: #fff; /* Text color for options */
+}
+  
+  /* Input Percent Styling */
+  .input-percent {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background: linear-gradient(145deg, #1a1049, #242f4b); /* Gradient background for input */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for focus effects */
+  }
+  
+  .input-percent:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6); /* Enhanced shadow on focus */
+    outline: none;
+  }
+  
+  /* Footer Dialog Styling */
+  .footer-dialog {
+    margin-top: 40px; /* Increased margin for a spacious layout */
+  }
+  
+  /* Loading and Error Messages Styling */
+  .loading,
+  .error {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px; /* Increased margin for better spacing */
+    font-size: 18px; /* Larger font size for emphasis */
+  }
+  
+  .loading {
+    color: #007bff; /* Color for loading message */
+    animation: pulse 1.5s infinite; /* Pulse animation for loading message */
+  }
+  
+  .error {
+    color: #ff0000; /* Color for error message */
+    animation: shake 0.6s ease; /* Shake animation for error message */
+  }
+  
+  /* Keyframe Animations */
+  @keyframes pulse {
+    0% {
+      opacity: 0.7;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.7;
+    }
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(-5px);
+    }
+  }
+  

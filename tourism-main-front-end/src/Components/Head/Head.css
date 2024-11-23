@@ -1,0 +1,66 @@
+ .title h1,
+ h2 {
+     color: white;
+     /* position: relative; */
+ }
+ 
+ .title h1 {
+     text-align: left;
+ }
+ 
+ .head {
+     height: 10%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 5%;
+     padding-right: 5%;
+ }
+ 
+ .titlebuttons {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 100%;
+ }
+ 
+ hr {
+     width: 90%;
+     
+ }
+ 
+ .title {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ 
+ .buttons {
+     display: flex;
+     flex-direction: row;
+     gap: 3%;
+ }
+ 
+ .button {
+     height: 100%;
+     width: 15%;
+ }
+ 
+ .button button {
+     padding: 10%;
+     background-color: #2B3451;
+     color: white;
+     border-radius: 15px;
+     width: 100%;
+     font-size: 12px;
+ }
+ 
+ .image-head {
+     height: 100%;
+     width: 25%;
+ }
+ 
+ .image-head img {
+     height: 100%;
+     scale: 1.2;
+ }

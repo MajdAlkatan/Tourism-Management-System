@@ -1,0 +1,9 @@
+.main-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    justify-content: center;
+    max-width: 100%;
+    flex: 1 25%;
+    margin-bottom: 50px;
+}

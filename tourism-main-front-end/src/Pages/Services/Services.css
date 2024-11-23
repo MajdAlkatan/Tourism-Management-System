@@ -1,0 +1,68 @@
+    .headerr {
+        width: 100%;
+    }
+    
+    .portfolio_services {
+        padding: 3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(54 52 62 / 95%);
+        border-radius: 15px;
+        cursor: pointer;
+        padding-top: 2%;
+        align-items: center;
+    }
+    
+    .l {
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .j {
+        padding-bottom: 4%;
+    }
+    
+    .button-delete {
+        background-color: rgb(243, 63, 78);
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+    
+    .button-update {
+        background-color: rgb(75, 75, 254);
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+    
+    .category-dropdown {
+        display: flex;
+        flex-direction: row;
+        padding-right: 12%;
+        justify-content: space-between;
+        padding-left: 10%;
+    }
+    
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80px;
+    }
+    
+    .icons .update {
+        color: rgb(75, 75, 254);
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .icons .delete {
+        color: rgb(255, 89, 89);
+        font-size: 20px;
+        cursor: pointer;
+    }

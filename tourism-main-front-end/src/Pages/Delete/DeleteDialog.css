@@ -1,0 +1,56 @@
+    .deleteservice {
+        width: 400px;
+        height: 550px;
+        margin: auto;
+        border: 1px solid #757373;
+        border-radius: 48px;
+        background-color: #0F111A;
+        display: flex;
+        flex-direction: row;
+        max-height: 100vh;
+        overflow: auto;
+        color: white;
+        justify-content: center;
+    }
+    
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .imagee img {
+        padding-top: 20px;
+        width: 300px;
+        height: 250px;
+    }
+    
+    .button_delete {
+        padding-bottom: 80px;
+    }
+    
+    .button_delete button {
+        background-color: #2B3451;
+        color: white;
+        border-radius: 15px;
+        width: 100px;
+        height: 40px;
+    }
+    
+    .imagee {
+        height: 60%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding-top: 25%;
+    }
+    
+    .refund,
+    .cancel,
+    .delete {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 77%;
+        flex-direction: column;
+        padding-bottom: 0%;
+    }

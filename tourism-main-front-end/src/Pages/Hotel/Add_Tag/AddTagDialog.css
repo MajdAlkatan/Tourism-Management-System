@@ -1,0 +1,78 @@
+/* AddTagDialog.css */
+
+/* Container for the entire page */
+.add-tag-page {
+    max-width: 600px;
+    margin: 100px;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+  
+  /* Title of the page */
+  .add-tag-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Style for form groups to align labels and inputs */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the labels */
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Style for the dropdowns (select elements) */
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    appearance: none; /* Remove default styling for better consistency */
+  }
+  
+  /* Hover and focus states for select elements */
+  .form-group select:hover,
+  .form-group select:focus {
+    border-color: #888;
+    outline: none;
+  }
+  
+  /* Style for the Save button */
+  .form-group button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover state for the button */
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for better user experience */
+  .form-group button:active {
+    background-color: #004085;
+  }
+  
+  

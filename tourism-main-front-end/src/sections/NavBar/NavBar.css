@@ -1,0 +1,79 @@
+.NavBar {
+    background-color: #141824;
+    width: 15%;
+    min-height: 100%;
+    border: 1px solid #31374A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.NavBar ul {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    padding: 0;
+}
+
+.NavBar ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    justify-content: center;
+    position: relative;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+
+}
+
+.NavBar ul li:hover {
+    background-color: #8e8e8e;
+    border-radius: 20px;
+}
+
+.NavBar ul li.logoutm:hover {
+    background-color: transparent !important;
+}
+
+hr {
+    width: 50%;
+    padding-left: 20px;
+    border: none;
+    border-top: 0.5px solid #31374A;
+    margin-top: 40px;
+}
+
+.language-dropdown {
+    position: relative;
+}
+
+.language-dropdown .dropdown-content {
+    display: none; /* Hide the dropdown by default */
+    position: absolute; /* Position relative to the parent */
+    top: 100%; /* Below the parent */
+    left: 0;
+    background-color: #141824;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #31374A;
+    padding: 5px;
+    width: 100%;
+    z-index: 10;
+}
+
+.language-dropdown.show .dropdown-content {
+    display: block; /* Show dropdown when .show class is applied */
+}
+
+.language-dropdown select {
+    border: none;
+    background-color: #141824;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}

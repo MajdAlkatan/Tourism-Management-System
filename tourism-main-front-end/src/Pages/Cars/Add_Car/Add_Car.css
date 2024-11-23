@@ -1,0 +1,36 @@
+    .add_rentalcar {
+        width: 650px;
+        height: 1000px;
+        margin: auto;
+        margin-top: 4%;
+        border: 1px solid #757373;
+        border-radius: 5px;
+        background-color: #0F111A;
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+        overflow: auto;
+        color: white;
+    }
+    
+    .upload-image {
+        padding-left: 30%;
+    }
+    
+    .grid-container {
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2 2;
+        gap: 5%;
+    }
+    
+    .reviews {
+        padding: 5%;
+    }
+    
+    .reviews label {
+        color: white;
+        display: flex;
+        gap: 20%;
+    }

@@ -1,0 +1,10 @@
+textarea[name="bio"] {
+    max-width: 500px;
+    min-height: 130px;
+    padding: 10px;
+    border: 1px solid #7796A9;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+    border-radius: 6px;/* Allows vertical resizing but prevents horizontal resizing */
+  }
+  

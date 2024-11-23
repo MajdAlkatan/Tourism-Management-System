@@ -1,0 +1,59 @@
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+    width: 250px;
+}
+
+.coolinput label.textsc {
+    font-size: 0.75rem;
+    color: #7796A9;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #0F111A;
+    width: fit-content;
+}
+
+.coolinput input[type=text].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 1px #7796A9 solid;
+    border-radius: 5px;
+    background: #0F111A;
+    color: white;
+    width: 250px;
+}
+.coolinput input[type=email].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 1px #7796A9 solid;
+    border-radius: 5px;
+    background: #0F111A;
+    color: white;
+    width: 250px;
+}
+
+.coolinput input[type=number].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 1px #7796A9 solid;
+    border-radius: 5px;
+    background: #0F111A;
+    color: white;
+    width: 250px;
+}
+
+.coolinput input[type=text].input:focus {
+    outline: none;
+}
+.coolinput input[type=email].input:focus {
+    outline: none;
+}
+
+.coolinput input[type=number].input:focus {
+    outline: none;
+}

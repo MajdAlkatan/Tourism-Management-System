@@ -1,0 +1,118 @@
+.add-bed-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.form-container {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #4a90e2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.beds-table-container {
+    padding: 20px;
+    border: 1px solid #4a90e2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bed-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.bed-details-table th, .bed-details-table td {
+    border: 1px solid #e1e1e1;
+    padding: 12px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.bed-details-table th {
+    font-weight: bold;
+    color: #4a90e2;
+}
+
+.bed-details-table tr:hover {
+    color: #fff;
+    background-color: rgba(18, 40, 110, 0.5);
+}
+
+.numberbutton {
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.numberbutton:disabled {
+    border-color: #d6d6d6;
+    color: #d6d6d6;
+    cursor: not-allowed;
+}
+
+.numberbutton:hover:not(:disabled) {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.select-container {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.select-container select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    appearance: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.select-container select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.select-container::after {
+    content: '▼';
+    font-size: 16px;
+    color: #4a90e2;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.select-container option {
+    padding: 10px;
+    color: #ffffff;
+}
+
+.select-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #4a90e2;
+}

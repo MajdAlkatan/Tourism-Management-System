@@ -1,0 +1,13 @@
+.grid-containerq{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    gap: 5%;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  

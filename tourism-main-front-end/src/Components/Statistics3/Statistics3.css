@@ -1,0 +1,21 @@
+.container3 {
+  background-color: #141824;
+  border-radius: 25px;
+  margin: 5px;
+
+  width: 45%;
+}
+
+.MuiChartsAxis-line{
+  stroke: white!important;
+}
+.MuiChartsAxis-tick{
+  stroke: white!important;
+}
+.MuiChartsAxis-tickLabel{
+  fill: white!important;
+}
+.css-195sd4n-MuiChartsGrid-line{
+  stroke: rgba(255, 255, 255, 0.178)!important;
+
+}

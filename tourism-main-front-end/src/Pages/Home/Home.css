@@ -1,0 +1,265 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 2em;
+  color: #cfcfcf;
+}
+
+.dashboard-header p {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.news-slide {
+  position: relative;
+}
+
+.news-content {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.news-content a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.news-content a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.react-calendar {
+  margin-left: 0;
+  border-radius: 5px;
+  background-color: #ffffff00!important;
+  margin-left: 15%;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-link {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.quick-link:hover {
+  background-color: #0056b3;
+}
+
+/* Weather Card Styles */
+.weather-card {
+  border-radius: 10px;
+  overflow: hidden;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 22%;
+
+}
+
+.weather-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+}
+
+.weather-details .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-details .details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.weather-details h3 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.weather-details p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #fff;
+}
+
+/* Weather Forecast Section */
+.weather-forecast {
+  margin-top: 20px;
+}
+
+.weather-forecast h4 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.forecast-item {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.forecast-item p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+/* Background Styles for Weather Conditions */
+.weather-clear {
+  background-image: url('../../assets/clear-day.jpg'); /* Replace with your path */
+}
+
+.weather-partly-cloudy {
+  background-image: url('../../assets/partly-cloudy-day.jpeg'); /* Replace with your path */
+}
+
+.weather-rain {
+  background-image: url('../../assets/rainy-day.jpeg'); /* Replace with your path */
+}
+
+.weather-snow {
+  background-image: url('../../assets/snowy.jpg'); /* Replace with your path */
+}
+
+.weather-night {
+  background-image: url('../../assets/clear-night.jpeg'); /* Replace with your path */
+}
+
+/* Service Details Styles */
+.service-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.service-photo {
+  flex: 1;
+  max-width: 150px;
+  margin-right: 1rem;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.service-details {
+  flex: 3;
+}
+
+.service-details h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.service-details p {
+  margin: 0.5rem 0;
+  font-size: 1em;
+  color: #666;
+}
+
+.b {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.b:hover {
+  background-color: #0056b3;
+}
+
+.currency-section,
+.stock-market-section {
+  margin-bottom: 20px;
+}
+
+.currency-section h3,
+.stock-market-section h3 {
+  font-size: 1.5em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.currency-section canvas {
+  width: 50% !important;
+  height: 50% !important;
+  max-width: 400px;
+  margin: 0 auto;
+}

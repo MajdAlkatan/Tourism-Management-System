@@ -1,0 +1,75 @@
+.portfolios {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    margin: 50px;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 2%;
+    justify-content: center;
+}
+
+.slick-track {
+    width: 5000% !important;
+}
+
+.slick-next {
+    display: block;
+    right: 20 !important;
+}
+
+.boxs {
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    flex-basis: calc(30% - 10px);
+    margin-bottom: 20px;
+}
+
+.portfolios .img-container .boxs:hover .caption {
+    bottom: 0;
+}
+
+.portfolios .img-container .boxs:hover img {
+    transform: rotate(3deg) scale(1.1);
+}
+
+.portfolios .img-container .boxs img {
+    width: 100%;
+    transition: 0.3s;
+    padding: 2px;
+    border-radius: 25px;
+}
+
+.portfolios .img-container .boxs .caption {
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.455);
+    width: 100%;
+    transition: 0.3s;
+    bottom: -100%;
+}
+
+.portfolios .img-container .boxs .caption h4 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.portfolios .img-container .boxs .caption p {
+    color: var(--main-color);
+}
+
+.portfolios .more {
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+}

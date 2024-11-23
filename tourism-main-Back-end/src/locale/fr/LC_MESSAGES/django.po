@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-28 17:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\activities\models.py:26 .\activities\models.py:281 .\events\models.py:12
+#: .\services\models.py:16
+msgid "Name"
+msgstr "Nom"
+
+#: .\activities\models.py:27
+msgid "Guide's Bio"
+msgstr "Biographie du guide"
+
+#: .\activities\models.py:28 .\profiles\models.py:24
+msgid "Avatar"
+msgstr "Avatar"
+
+#: .\activities\models.py:29
+msgid "Email"
+msgstr "E-mail"
+
+#: .\activities\models.py:37
+msgid "Likers"
+msgstr "Les likers"
+
+#: .\activities\models.py:93 .\activities\models.py:215
+#: .\reservations\models.py:31
+msgid "Canceled"
+msgstr "Annulé"
+
+#: .\activities\models.py:96
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: .\activities\models.py:120
+msgid "Takeoff date"
+msgstr "Date de décollage"
+
+#: .\activities\models.py:121
+msgid "Tour Duration"
+msgstr "Durée de la visite guidée"
+
+#: .\activities\models.py:122
+msgid "Guide"
+msgstr "Guide"
+
+#: .\activities\models.py:126
+msgid "Sites"
+msgstr "Sites"
+
+#: .\activities\models.py:144
+msgid "this guide is not available at the selected time period"
+msgstr "ce guide n'est pas disponible à la période sélectionnée"
+
+#: .\activities\models.py:162
+msgid "Opens At Time"
+msgstr "Ouvre à l'heure"
+
+#: .\activities\models.py:164 .\activities\models.py:258
+msgid "Site"
+msgstr "Site"
+
+#: .\activities\models.py:165
+msgid "Link"
+msgstr "Lien"
+
+#: .\activities\models.py:195 .\activities\models.py:251
+msgid "Activity"
+msgstr "Activité"
+
+#: .\activities\models.py:196
+msgid "Name of the ticket"
+msgstr "Nom du billet"
+
+#: .\activities\models.py:197 .\activities\models.py:282 .\events\models.py:13
+#: .\properties\models.py:44 .\services\models.py:17
+msgid "Description"
+msgstr "Description"
+
+#: .\activities\models.py:213
+msgid "Stock"
+msgstr "Actions"
+
+#: .\activities\models.py:252
+msgid "Tag"
+msgstr "Étiquette"
+
+#: .\activities\models.py:257
+msgid "Tour"
+msgstr "Visite guidée"
+
+#: .\activities\models.py:259
+msgid "Order"
+msgstr "Ordre"
+
+#: .\activities\models.py:279
+msgid "Photo"
+msgstr "Photo"
+
+#: .\activities\serializers.py:68 .\activities\serializers.py:74
+msgid "Activity Does not exist."
+msgstr "Activité N'existe pas."
+
+#: .\activities\serializers.py:78
+msgid ""
+"the Valid until field must be at least a day earlier than the takeoff date."
+msgstr "le champ Valable jusqu'à doit être au moins un jour avant la date de décollage."
+
+#: .\activities\serializers.py:132 .\activities\serializers.py:141
+msgid "duplicate entry for the site"
+msgstr "entrée en double pour le site"
+
+#: .\activities\serializers.py:134
+msgid "Tour does not exist."
+msgstr "La visite guidée n'existe pas."
+
+#: .\activities\serializers.py:172
+msgid "Takeoff date, duration, and book are required."
+msgstr "La date, la durée et le livre de décollage sont requis."
+
+#: .\activities\serializers.py:188
+msgid "The specified time range overlaps with an existing tour for this guide."
+msgstr "Le créneau horaire spécifié chevauche une visite existante pour ce guide."
+
+#: .\activities\serializers.py:217
+msgid "The sum of opens_at and work_hours exceeds 24 hours."
+msgstr "L'addition d'ouvre à et les heures de travail dépasse 24 heures."
+
+#: .\activities\validators.py:8
+msgid "Date cannot be in the past."
+msgstr "La date ne peut pas être située dans le passé."
+
+#: .\activities\views.py:57
+msgid "already canceled"
+msgstr "déjà annulé"
+
+#: .\activities\views.py:60 .\activities\views.py:121
+msgid "tour has already begun or concluded"
+msgstr "la visite guidée a déjà commencé ou est terminée"
+
+#: .\activities\views.py:75 .\activities\views.py:138
+msgid "cannot delete while some users have not been refunded"
+msgstr "impossible de supprimer alors que certains utilisateurs n'ont pas été remboursés"
+
+#: .\activities\views.py:171
+msgid "either the first id or second one or both was left blank"
+msgstr "soit le premier identifiant, soit le deuxième, ou les deux, sont restés vides"
+
+#: .\activities\views.py:175
+msgid "Not Found"
+msgstr "Introuvable"
+
+#: .\app_auth\admin.py:14
+msgid "Personal info"
+msgstr "Informations personnelles"
+
+#: .\app_auth\admin.py:16
+msgid "Permissions"
+msgstr "Autorisations"
+
+#: .\app_auth\admin.py:28
+msgid "Important dates"
+msgstr "Dates importantes"
+
+#: .\app_auth\models.py:30
+msgid "user"
+msgstr "utilisateur"
+
+#: .\app_auth\models.py:31
+msgid "users"
+msgstr "utilisateurs"
+
+#: .\app_auth\templates\activate\email.html:4
+#, python-format
+msgid "Account activation on %(site_name)s"
+msgstr "Activation du compte sur %(site_name)s"
+
+#: .\app_auth\templates\activate\email.html:16
+msgid "Account Activation"
+msgstr "Activation du compte"
+
+#: .\app_auth\templates\reset_password_email.html:4
+#, python-format
+msgid "Password reset on %(site_name)s"
+msgstr "mot de passe réinitialisé sur %(site_name)s"
+
+#: .\app_auth\templates\reset_password_email.html:8
+#: .\app_auth\templates\reset_password_email.html:20
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr "Vous recevez cet e-mail car vous avez demandé une réinitialisation du mot de passe de votre compte utilisateur sur %(site_name)s."
+
+#: .\app_auth\templates\reset_password_email.html:10
+#: .\app_auth\templates\reset_password_email.html:22
+msgid "Please go to the following page and choose a new password:"
+msgstr "Veuillez vous rendre sur la page suivante et choisir un nouveau mot de passe :"
+
+#: .\app_auth\templates\reset_password_email.html:12
+#: .\app_auth\templates\reset_password_email.html:24
+msgid "Your username, in case you've forgotten:"
+msgstr "Votre nom d'utilisateur, au cas où vous l'auriez oublié :"
+
+#: .\app_auth\templates\reset_password_email.html:14
+#: .\app_auth\templates\reset_password_email.html:26
+msgid "Thanks for using our site!"
+msgstr "Merci d’utiliser notre site !"
+
+#: .\app_auth\templates\reset_password_email.html:16
+#: .\app_auth\templates\reset_password_email.html:28
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "L'équipe de %(site_name)s"
+
+#: .\gemini\models.py:10
+msgid "Content made by Gemini"
+msgstr "Contenu réalisé par Gemini"
+
+#: .\gemini\models.py:11
+msgid "Prompt for the AI"
+msgstr "Invite pour l'IA"
+
+#: .\gemini\models.py:12
+msgid "Sensitivity of the ai"
+msgstr "Sensibilité de l'IA"
+
+#: .\gemini\models.py:13
+msgid "The model of the AI"
+msgstr "Le modèle de l'IA"
+
+#: .\profiles\models.py:17 .\profiles\models.py:49 .\profiles\models.py:75
+msgid "User"
+msgstr "Utilisateur"
+
+#: .\profiles\models.py:19
+msgid "Bio"
+msgstr "Biographie"
+
+#: .\profiles\models.py:20
+msgid "Marital Status"
+msgstr "État civil"
+
+#: .\profiles\models.py:21
+msgid "Birth Date"
+msgstr "Date de naissance"
+
+#: .\profiles\models.py:22
+msgid "Number of Children"
+msgstr "Nombre d'enfants"
+
+#: .\reservations\exceptions.py:7
+msgid "This item is not refundable."
+msgstr "Cet article n’est pas remboursable."
+
+#: .\reservations\exceptions.py:24
+msgid "This item can't be canceled."
+msgstr "Cet élément ne peut pas être annulé."
+
+#: .\reservations\models.py:28
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: .\reservations\models.py:30
+msgid "Scanned"
+msgstr "scanné"
+
+#: .\reservations\models.py:32
+msgid "Ticket scan date time"
+msgstr "Date et heure de numérisation du billet"
+
+#: .\reservations\models.py:33
+msgid "Unique Identifier"
+msgstr "Identifiant unique"
+
+#: .\reservations\models.py:37 .\reservations\models.py:161
+msgid "QR Code for uuid"
+msgstr "code QR pour l'uuid"
+
+#: .\reservations\models.py:75 .\reservations\models.py:286
+#: .\reservations\models.py:341
+msgid "User does not have payment information"
+msgstr "L'utilisateur ne dispose pas d'informations de paiement"
+
+#: .\reservations\models.py:114
+msgid "Impossible situation encountered."
+msgstr "Situation impossible rencontrée."
+
+#: .\reservations\models.py:152
+msgid "No payments found to refund."
+msgstr "Aucun paiement à rembourser trouvé."
+
+#: .\reservations\models.py:160
+msgid "Ticket"
+msgstr "Billet"
+
+#: .\reservations\models.py:169
+msgid "Can scan reservations"
+msgstr "Peut scanner les réservations"
+
+#: .\reservations\models.py:200
+msgid "Invalid Reservation."
+msgstr "Réservation invalide."
+
+#: .\reservations\models.py:208
+msgid "Ticket is expired"
+msgstr "le billet est expiré"
+
+#: .\reservations\models.py:216
+msgid "Activity no longer available"
+msgstr "L'activité n'est plus disponible"
+
+#: .\reservations\models.py:220
+msgid "Ticket is out of stock"
+msgstr "Le billet est en rupture de stock"
+
+#: .\reservations\models.py:289
+msgid "Insufficient funds"
+msgstr "Fonds insuffisants"
+
+#: .\reservations\models.py:307
+msgid "Points Amount"
+msgstr "Montant des points"
+
+#: .\reservations\models.py:314
+msgid "Insufficient points funds"
+msgstr "Fonds de points insuffisants"
+
+#: .\reservations\views.py:46
+msgid "Ticket does not exist."
+msgstr "Le billet n’existe pas."
+
+#: .\reservations\views.py:52 .\reservations\views.py:64
+msgid "purchase object not found."
+msgstr "objet d'achat introuvable."
+
+#: .\services\models.py:50
+msgid "Gifted points"
+msgstr "Points offerts"
+
+#: .\services\models.py:119
+msgid "Review Comment"
+msgstr "Réviser le commentaire"
+
+#: .\services\models.py:126
+msgid "Reviews are not allowed for this service."
+msgstr "Les avis ne sont pas autorisés pour ce service."
+
+#: .\templates\admin\base_site.html:3
+msgid "Pingoway site admin"
+msgstr "Administrateur du site Pingoway"
+
+#: .\templates\admin\base_site.html:6
+msgid "Pingoway administration"
+msgstr "Administration Pingoway"
+

@@ -1,0 +1,181 @@
+.add-hotel-container {
+    width: 650px;
+    margin: auto;
+    margin-top: 4%;
+    border: 1px solid #757373;
+    border-radius: 5px;
+    background-color: #0F111A;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    overflow: auto;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.MuiDialog-paper {
+    min-width: 100%!important;
+    max-width: none!important;
+    background-color: transparent!important;
+}
+
+/* Header tags and sections */
+.add-hotel-container .tag {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Form Section */
+.add-hotel-container .hotel-form {
+    margin-bottom: 20px;
+}
+
+.name_hotel, .description_hotel, .rate-input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Ratings Section */
+.rates {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.rate-input {
+    width: 48%;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Radio Buttons Section */
+.radio-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Radio Button Styles */
+.radio-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.radio-button__input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.radio-button__label {
+    display: inline-block;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.radio-button__custom {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #555;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.radio-button__input:checked + .radio-button__label .radio-button__custom {
+    transform: translateY(-50%) scale(0.9);
+    border: 5px solid #4c8bf5;
+    color: #4c8bf5;
+}
+
+.radio-button__input:checked + .radio-button__label {
+    color: #4c8bf5;
+}
+
+.radio-button__label:hover .radio-button__custom {
+    transform: translateY(-50%) scale(1.2);
+    border-color: #4c8bf5;
+    box-shadow: 0 0 10px #4c8bf580;
+}
+
+/* Location Section */
+.location {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.containerm {
+    width: 32%;
+    height: 40px;
+    background-color: #0F111A;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid #757373;
+    padding: 0 10px;
+}
+
+/* Services Section */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 5%;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    padding: 10px;
+}
+
+/* Reviews Section */
+.reviews {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.reviews label {
+    color: white;
+}
+
+/* Address Section */
+.address {
+    margin-bottom: 20px;
+}
+
+/* Star Rating */
+.MuiRating-root .MuiSvgIcon-root {
+    color: yellow;
+    /* Change the color of the star itself */
+}
+
+.MuiRating-iconEmpty {
+    color: yellow !important;
+}
+
+/* Footer Section */
+.footer_dialog2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,249 @@
+.login-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Add a semi-transparent background */
+}
+
+.image {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.image video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.login {
+    height: 45%;
+    width: 100%;
+    background-color: rgba(45, 45, 45, 0.9);
+    padding: 0;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top: 10%;
+    transition: all;
+}
+
+.error {
+    color: red;
+    margin: 0;
+    text-align: start;
+}
+
+.input-container {
+    width: 100%;
+}
+
+.inputs .password,
+.inputs .user {
+    height: 30px;
+    width: 100%;
+    background-color: #2b2b2b;
+    border-radius: 15px;
+    caret-color: white;
+    color: white;
+    border: solid 1px;
+    padding-left: 20px;
+    margin-top: 5%;
+}
+
+.inputs .password:focus,
+.inputs .user:focus {
+    animation: rotateShadow 2s infinite linear;
+}
+
+@keyframes rotateShadow {
+    0% {
+        box-shadow: -2px -2px 0px 0px #aa00ff, 2px 2px 0px 0px #3700ff;
+    }
+    25% {
+        box-shadow: -2px 2px 0px 0px #aa00ff, 2px -2px 0px 0px #3700ff;
+    }
+    50% {
+        box-shadow: 2px 2px 0px 0px #aa00ff, -2px -2px 0px 0px #3700ff;
+    }
+    75% {
+        box-shadow: 2px -2px 0px 0px #aa00ff, -2px 2px 0px 0px #3700ff;
+    }
+    100% {
+        box-shadow: -2px -2px 0px 0px #aa00ff, 2px 2px 0px 0px #3700ff;
+    }
+}
+
+.password:hover,
+.user:hover {
+    transition: 1s;
+    border-color: aqua;
+}
+
+.welcom {
+    position: relative;
+    top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+.login-button {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    color: #fff;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(80deg, #010d25, #416885, #03a9f4, #4b7193, #010d25);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+    top: 20%;
+}
+
+.login-button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+}
+
+@keyframes ani {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 300%;
+    }
+}
+
+.login-button:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(60deg, #010d25, #416885, #03a9f4, #4b7193, #010d25);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+
+.login-button:hover::before {
+    filter: blur(10px);
+}
+
+.login-button:active {
+    background: linear-gradient(82deg, #010d25, #416885, #03a9f4, #4b7193, #010d25);
+    filter: blur(20px);
+}
+
+.forget-password {
+    position: relative;
+    color: #405ff8;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.forget-password:hover {
+    color: aqua;
+    transition: 1s;
+}
+
+.Welcome {
+    position: relative;
+    right: 12%;
+    top: 50%;
+    font-size: 50px;
+    color: #c8c8c8;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 3px 2px 6px rgb(0, 0, 0);
+}
+
+.PingoWay {
+    position: relative;
+    top: 39%;
+    left: 20%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #c8c8c8;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 3px 2px 6px rgb(0, 0, 0);
+}
+
+.icon-user {
+    position: absolute;
+    right: 20px;
+    top: 19px;
+}
+
+.icon-password {
+    position: absolute;
+    right: 20px;
+    top: 68px;
+}
+
+.vid {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.login-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.loginn {
+    height: 45%;
+    width: 100%;
+    background-color: rgba(45, 45, 45, 0.9);
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginn img {
+    width: 129px;
+    height: 119px;
+    top: 440px;
+    left: 235px;
+}

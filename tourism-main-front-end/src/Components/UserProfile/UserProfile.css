@@ -1,0 +1,53 @@
+/* UserProfile.css */
+
+.user_block {
+    padding: 20px;
+    min-height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between avatar items */
+  }
+  
+  .avatar {
+    border-radius: 10px; /* Slightly rounded corners */
+    background: linear-gradient(135deg, #1f2236, #2c2f45);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 200px; /* Fixed width for consistency */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .avatar:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+  }
+  
+  .imgs {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures images cover the circle area without distortion */
+    border: 3px solid #fff; /* White border around images */
+    transition: border-color 0.3s;
+  }
+  
+  .imgs:hover {
+    border-color: #4caf50; /* Green border on hover */
+  }
+  
+  h4 {
+    margin-top: 10px;
+    color: #e0e0e0;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  

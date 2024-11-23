@@ -1,0 +1,50 @@
+.img {
+    width: 250px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.avatar {
+    padding-top: 2%;
+}
+
+.avatar2 {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.avatar2 span {
+    font-size: 20px;
+}
+
+.avatar2 li {
+    list-style: none;
+}
+
+.trip_container {
+    width: 650px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 4%;
+    border: 1px solid #757373;
+    border-radius: 5px;
+    background-color: #0F111A;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    overflow: auto;
+    color: white;
+}
